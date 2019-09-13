@@ -10,14 +10,16 @@ public class People {
     public String Sex;
     public Toast toast;
     //吃
-    public void Eat(Activity MainActivity){
+    public boolean Eat(Activity MainActivity){
         Log.e("People共有行为：","吃");
         toast = Toast.makeText(MainActivity,"People类中的吃方法",Toast.LENGTH_LONG);
+        return true;
     }
     //喝
-    public  void Drink(Activity MainActivity){
+    public  boolean Drink(Activity MainActivity){
         Log.e("People共有行为：","喝");
         toast = Toast.makeText(MainActivity,"People类中的喝方法",Toast.LENGTH_LONG);
+        return true;
     }
     // Get 和 Set
     public String getName() {
