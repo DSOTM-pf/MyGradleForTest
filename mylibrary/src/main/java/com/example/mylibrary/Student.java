@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.util.Log;
 import android.widget.Toast;
 
-public class Student {
+public class Student extends People {
     public String School;
     public String Grade;
     public Toast toast;
