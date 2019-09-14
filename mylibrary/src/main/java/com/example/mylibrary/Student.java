@@ -14,6 +14,7 @@ public class Student extends People {
         toast = Toast.makeText(MainActivity,"Student类中的学习方法",Toast.LENGTH_LONG);
         return true;
     }
+    //jjjjjj
 
     //旷课
     private boolean NotLearn(Activity MainActivity) {
